@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Tab from './tab';
-import TabList from './tabList';
+import Tab from './components/tab';
+import TabList from './components/tabList';
 import './styles/tabs.scss';
 
 class App extends React.Component {
@@ -25,22 +25,3 @@ class App extends React.Component {
 
 ReactDOM.render( <App />
   , document.getElementById("main"));
-
-//each tab should track whether it is active and an id 
-//tabSet = [{},{}]
-//tabID = ""
-//
-/***
-tabSet = [
-  {
-    tabID: 1,
-    tabContent: "hello"
-  },
-  {
-    tabID: 2,
-    tabContent: "goodbye"
-  }
-]
-**/
-
-//onClick on each tab for this example
