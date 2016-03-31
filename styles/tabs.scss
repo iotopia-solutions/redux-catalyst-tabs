@@ -1,3 +1,15 @@
-body {
-  background-color: red;
+.tab-set {
+  display: flex;
+}
+
+.tab {
+    background-color: gray;
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    border-top-right-radius: 10px;
+    margin-right: 3px;
+  &:focus {
+    background-color: red;
+  }
 }
