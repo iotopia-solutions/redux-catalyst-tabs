@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Tab from './components/tab';
-import TabList from './components/tabList';
-import './styles/tabs.scss';
+import Tab from '../src/tab';
+import TabList from '../src/tabList';
+import './app.scss';
+//import {Tab, TabList} from 'redux-calyst-tabs'
 
 class App extends React.Component {
   constructor(props){
