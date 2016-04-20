@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Tab from '../src/tab';
-import TabList from '../src/tabList';
+import Tab from '../src/components/tab';
+import TabList from '../src/components/tabList';
 import './app.scss';
 //import {Tab, TabList} from 'redux-calyst-tabs'
 
