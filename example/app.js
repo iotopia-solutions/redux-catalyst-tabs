@@ -9,16 +9,16 @@ class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      activeID: ""
+      activeID: ''
     };
   }
 
   render() {
     return(
       <TabList activeID={this.state.activeID} makeActive={(id) => this.setState({activeID: id})}>
-        <Tab tabID="1" key="1">Hello</Tab>
-        <Tab tabID="2" key="2">GoodBye</Tab>
-        <Tab tabID="3" key="3">Nevermind</Tab>
+        <Tab tabID='1' key='1'>Hello</Tab>
+        <Tab tabID='2' key='2'>GoodBye</Tab>
+        <Tab tabID='3' key='3'>Nevermind</Tab>
       </TabList>
     )
   }
